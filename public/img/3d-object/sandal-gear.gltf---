@@ -39,9 +39,9 @@
             "extensions" : {
                 "KHR_materials_specular" : {
                     "specularColorFactor" : [
-                        0,
-                        0,
-                        0
+                        0.9377641719430495,
+                        0.9377641719430495,
+                        0.9377641719430495
                     ]
                 },
                 "KHR_materials_ior" : {
@@ -51,13 +51,13 @@
             "name" : "Material.001",
             "pbrMetallicRoughness" : {
                 "baseColorFactor" : [
-                    0.6970112323760986,
+                    0.8443382382392883,
+                    0.9694800972938538,
                     1,
-                    0.9551903009414673,
                     1
                 ],
-                "metallicFactor" : 0,
-                "roughnessFactor" : 0.5909091234207153
+                "metallicFactor" : 0.4272727370262146,
+                "roughnessFactor" : 0.550000011920929
             }
         },
         {
@@ -65,13 +65,13 @@
             "name" : "ring",
             "pbrMetallicRoughness" : {
                 "baseColorFactor" : [
-                    0.0637505054473877,
-                    0.5055307745933533,
                     0.8000000715255737,
+                    0.7329728603363037,
+                    0.17607973515987396,
                     1
                 ],
-                "metallicFactor" : 0.44999998807907104,
-                "roughnessFactor" : 0.38181817531585693
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
             }
         }
     ],

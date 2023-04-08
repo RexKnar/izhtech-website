@@ -28,10 +28,12 @@
     "react-router-dom": "^6.8.1",
     "react-scroll": "^1.8.7",
     "react-syntax-highlighter": "^15.5.0",
+    "react-tsparticles": "^2.9.3",
     "scrollcue": "^2.0.0",
     "sharp": "^0.31.1",
     "swiper": "^8.3.2",
     "three": "^0.151.3",
+    "tsparticles": "^2.9.3",
     "typewriter-effect": "^2.19.0"
   },
   "devDependencies": {

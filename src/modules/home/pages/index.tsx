@@ -12,9 +12,11 @@ export function HomePage() {
   return (
     <>
     <header className="wrapper bg-soft-primary transparent ">
+        
         <Header
-          navOtherClass="navbar-other ms-lg-4"
-          navClassName="navbar navbar-expand-lg classic transparent navbar-light"
+          stickyBox={false}
+          navOtherClass="navbar-other ms-lg-2"
+          navClassName="navbar navbar-expand-lg classic transparent position-absolute navbar-dark"
           button={<NextLink href="#" title="Contact" className="btn btn-sm btn-primary rounded-pill" />}
         />
       </header>

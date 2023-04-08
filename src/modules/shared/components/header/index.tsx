@@ -108,7 +108,7 @@ const Navbar: FC<NavbarProps> = (props) => {
             </li>
           </ul>
         </div>
-      {/* </div> */}
+      
 
       {/* ============= right side header content ============= */}
       <div className={navOtherClass}>

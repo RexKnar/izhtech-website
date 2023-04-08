@@ -1,9 +1,11 @@
+import Particle from "../../../shared/components/adons/particles";
 
 
 
 export function  HomeBanner(){
   return (
     <section className="wrapper bg-soft-primary">
+      <Particle />
       <div className="container pt-10 pt-lg-12 pt-xl-12 pt-xxl-10 pb-lg-10 pb-xl-10 pb-xxl-0">
         <div className="row gx-md-8 gx-xl-12 gy-10 align-items-center text-center text-lg-start">
           <div className="col-lg-6" data-cues="slideInDown" data-group="page-title" data-delay="900">
