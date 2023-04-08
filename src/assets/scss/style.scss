@@ -1,0 +1,76 @@
+/*!
+Theme Name: Sandbox - Modern & Multipurpose Nextjs Template
+Theme URI:	
+Version:	1.0.0
+Author:		ui-lib
+*/
+
+// Bootstrap Functions
+// @import '/bootstrap/scss/functions';
+@import '../../../node_modules/bootstrap/scss/functions';
+
+// Theme colors
+@import './theme-colors';
+
+// User variables
+@import './user-variables';
+
+// Theme variables
+@import './variables';
+
+// Bootstrap configuration
+@import '../../../node_modules/bootstrap/scss/variables';
+@import '../../../node_modules/bootstrap/scss/maps';
+@import '../../../node_modules/bootstrap/scss/mixins';
+@import '../../../node_modules/bootstrap/scss/utilities';
+
+// Theme configuration
+@import './theme/functions';
+@import './theme/mixins';
+@import './theme/utilities';
+@import './theme/root';
+
+// Bootstrap layout & components
+@import './bootstrap';
+
+// Theme layout & components
+@import './theme/theme';
+
+// User custom styles
+@import './user';
+
+
+.bg-gear{
+  height: 200px ;
+  width: 200px ;
+  background-size: cover;
+}
+.blue-gear{
+
+  background-image: url("/public/img/gears/blue-gear.png");
+}
+.yellow-gear{
+  background-image: url("/public/img/gears/yellow-gear.png");
+}
+.light-blue-gear{
+  background-image: url("/public/img/gears/light-blue-gear.png");
+}
+.green-gear{
+  background-image: url("/public/img/gears/green-gear.png");
+}
+.rotate-div{
+    animation-name: rotateme;
+      animation-duration: 40s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+  }
+  
+  
+  @keyframes rotateme {
+    0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+  }

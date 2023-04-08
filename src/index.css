@@ -1,0 +1,28 @@
+@import '../public/css/style.css';
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+/* html,
+body
+{
+    overflow: hidden;
+} */
+html{
+  background-color: rgb(45, 48, 49);
+}
+#canvas
+{
+    position: absolute;
+    top: 30vh;
+    left: 0;
+    outline: none;
+    width: 50vw;
+    height: auto;
+    
+}
+
+
