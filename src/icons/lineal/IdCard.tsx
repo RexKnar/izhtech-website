@@ -1,4 +1,4 @@
-import IconProps from 'types/icon';
+import IconProps from '../../types/icon';
 
 const IdCard = ({ className }: IconProps) => {
   return (

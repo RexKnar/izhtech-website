@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import ServiceCard from '../reuseable/service-cards/ServiceCard4';
+
 import NextLink from '../reuseable/links/NextLink';
 import { serviceList } from '../../data/service-list';
 
@@ -8,6 +8,7 @@ import { serviceList } from '../../data/service-list';
 import { useEffect, useRef } from "react";
 import * as THREE from "three";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
+import ServiceCard from '../reuseable/service-card';
 
 
 

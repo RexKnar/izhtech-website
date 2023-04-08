@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import SocialLinks from '../reuseable/SocialLinks';
 import NextLink from '../reuseable/links/NextLink';
-import footerNav from '../../../../data/footer';
+import footerNav from '../../data/footer';
 
 const Footer: FC = () => {
   return (
