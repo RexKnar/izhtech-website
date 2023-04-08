@@ -59,7 +59,7 @@ const Services: FC = () => {
           let pinkGear: THREE.Object3D;
           let orangeGear: THREE.Object3D;
           loader.load(
-            "public/assets/3d-object/sandal-gear.gltf",
+            "img/3d-object/sandal-gear.gltf",
             (gltf) => {
               sandalGear = gltf.scene;
               scene.add(sandalGear);
@@ -71,7 +71,7 @@ const Services: FC = () => {
             }
           );
           loader.load(
-            "public/assets/3d-object/green-gear.gltf",
+            "img/3d-object/green-gear.gltf",
             (gltf) => {
               greenGear = gltf.scene;
               greenGear.position.set(-1.5, 1.12, 0);
@@ -85,7 +85,7 @@ const Services: FC = () => {
             }
           );
           loader.load(
-            "public/assets/3d-object/pink-gear.gltf",
+            "img/3d-object/pink-gear.gltf",
             (gltf) => {
               pinkGear = gltf.scene;
               pinkGear.position.set(-1.60, -1.0, 0);
@@ -100,7 +100,7 @@ const Services: FC = () => {
             }
           );
           loader.load(
-            "public/assets/3d-object/orange-gear.gltf",
+            "img/3d-object/orange-gear.gltf",
             (gltf) => {
               orangeGear = gltf.scene;
               orangeGear.position.set(-3.22, 0.42, 0);
